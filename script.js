@@ -72,7 +72,7 @@ state.user.loggedIn = false
 console.log(stateClone);
 console.log(stateDeepClone);
 
-////////////////////////////
+///////////////////////////
 //// Hot Module Replacement ////
 // It allows a module to be changed without affecting the browser as a whole...
 // ... the module will be make its change seperately, this is majorly used during maintenance
