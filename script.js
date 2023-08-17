@@ -79,3 +79,22 @@ console.log(stateDeepClone);
 if(module.hot){
     module.hot.accept()
 }
+
+
+class Person{
+    greeting= 'Hey';
+    constructor(name) {
+        this.name = name;
+        console.log(`${this.greeting}, ${this.name} `);
+    }
+}
+const jonas = new Person('Jonas')
+
+console.log('Jonas' ?? null);
+Promise.resolve('TEST').then(x => console.log(x));
+
+// Polyfilling
+import 'core-js/stable';
+
+// Polyfilling Async Functions
+import 'regenerator-runtime/runtime';
