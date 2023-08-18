@@ -96,5 +96,5 @@ Promise.resolve('TEST').then(x => console.log(x));
 // Polyfilling//////////////
 import 'core-js/stable';
 
-// Polyfilling Async Functions /////////////
+// Polyfilling Async Functions ////////////
 import 'regenerator-runtime/runtime';
