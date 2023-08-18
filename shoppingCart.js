@@ -26,4 +26,4 @@ export default function (product, quantity) {
     console.log(`${quantity} ${product} are added to cart`);
   };
 
-/////////
+///////
